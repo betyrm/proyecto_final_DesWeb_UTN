@@ -2,3 +2,242 @@
     margin: 0;
     padding: 0;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .logo{
+    margin-left: 70px;
+   
+} 
+nav .logo i{
+    padding-right: 20px;
+    opacity: 80%;
+}
+nav .logo .titulo_parso{
+    padding-left: 30px;
+    font-weight: lighter;
+    font-size: 40px;
+}   
+
+nav ul{
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+nav  ul li{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav ul li a{
+    text-decoration: none;
+ 
+}
+
+.contenedor1{
+    width: 70%;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+    align-items: center;
+    
+ }
+@font-face {
+    font-family: 'Elephant';
+    src: url('/fuentes/13174_ELEPHNT.ttf') format('truetype');
+   
+  }
+
+.contenedor1 .titulo h1{
+    opacity: 95%;
+    padding-right: 40px;
+    font-family:'Elephant';
+    font-size: 90px;
+    border-right: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+
+
+.contenedor1 .parrafo{
+    margin: 5px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.contenedor1 .parrafo p{
+    padding-top: 10px;
+    text-align: left;
+    opacity: 80%;
+    line-height: 1.5;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.imagen img{
+
+    background-image: cover;
+}
+
+.seccion3{
+    width: 90%;
+    padding-top: 150px;
+    display: flex;
+}
+
+.seccion3 .imagen_con_boton{
+    position: relative;
+}
+
+.seccion3 .imagen_con_boton img{
+    width: 600px;
+    height: 800px;
+    background-image: cover;
+}
+
+.seccion3 .imagen_con_boton .flecha-izq{
+    width: 130px;
+    height: 70px;
+    background-color: white;
+    padding: 10px 10px;
+    border: none;
+    position: absolute;
+    left: 470px;
+    top: 730px;
+}
+
+.seccion3 .imagen_con_boton .izq{
+    color:rgb(195, 188, 188);
+    font-size: 200%;
+    width: 40px;
+}
+.seccion3 .imagen_con_boton .flecha-der{
+    width: 130px;
+    height: 70px;
+    background-color: black;
+    padding: 10px 10px;
+    border: none;
+    position: absolute;
+    left: 600px;
+    top: 730px;
+}
+.seccion3 .imagen_con_boton .der{
+    color:white;
+    font-size: 200%;
+    width: 40px;
+}
+
+.seccion3 .texto1{
+    margin-top: 190px;
+    padding-left: 50px;
+    text-align: left;
+    opacity: 80%;
+    
+} 
+
+ .primer_texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-right: 100px;
+    line-height: 1.2;
+}
+
+ .segundo_texto{
+    margin-top: 10px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 80%;
+    line-height: 1.5;
+    
+}
+
+.seccion3 .texto1 .boton_comillas{
+    margin-top: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.seccion3 .texto1 i{
+    color:white;
+
+}
+.seccion3 .texto1 .tercer_texto{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 200px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.seccion4{
+    
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    
+
+}
+
+.seccion4 .seccion4_texto1{
+    width: 500px;
+    height: 700px;
+    padding-right: 50px;
+    
+}
+
+.read{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 80%;
+    font-size: 15px;
+
+}
+.seccion4  .imagen1_seccion4{
+    width: 500px;
+    height: 600px;
+} 
+ 
+.seccion4  .imagen2_seccion4{
+    width: 600px;
+    height: 400px;
+    margin-right: -60px;
+    margin-top: -200px;
+} 
+.gallary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;    
+}
+.seccion4 .seccion4_texto2{
+    width: 400px;
+    height: 700px;
+    padding-top: 20px;
+    padding-left: 80px;
+    
+}
