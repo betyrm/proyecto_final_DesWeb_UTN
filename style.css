@@ -19,7 +19,7 @@ nav .logo i{
     padding-right: 20px;
     opacity: 80%;
 }
-nav .logo .titulo_parso{
+.titulo_parso{
     padding-left: 30px;
     font-weight: lighter;
     font-size: 40px;
@@ -41,8 +41,9 @@ nav  ul li{
 
 nav ul li a{
     text-decoration: none;
- 
+
 }
+
 
 .contenedor1{
     width: 70%;
@@ -52,7 +53,8 @@ nav ul li a{
     margin-left: 270px;
     align-items: center;
     
- }
+}
+
 @font-face {
     font-family: 'Elephant';
     src: url('/fuentes/13174_ELEPHNT.ttf') format('truetype');
@@ -153,7 +155,7 @@ nav ul li a{
     
 } 
 
- .primer_texto{
+.primer_texto{
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
     font-weight: bold;
@@ -161,11 +163,11 @@ nav ul li a{
     line-height: 1.2;
 }
 
- .segundo_texto{
+.segundo_texto{
     margin-top: 10px;
     margin-right: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 80%;
+    opacity: 60%;
     line-height: 1.5;
     
 }
@@ -212,12 +214,25 @@ nav ul li a{
     
 }
 
-.read{
-    padding-top: 20px;
+.read {
+    
+    display: flex;
+}
+
+.read h2{
+    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 80%;
     font-size: 15px;
 
+}
+
+hr{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 10%;
+    height: 50%;
+    border: 1px solid black
+      
 }
 .seccion4  .imagen1_seccion4{
     width: 500px;
@@ -231,13 +246,191 @@ nav ul li a{
     margin-top: -200px;
 } 
 .gallary{
+    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;    
 }
 .seccion4 .seccion4_texto2{
     width: 400px;
-    height: 700px;
-    padding-top: 20px;
-    padding-left: 80px;
+    padding-left: 100px;
     
 }
+.italica{
+    padding-top: 5px;
+    font-style: italic;
+    font-size: 1.2rem;
+  
+}
+
+.seccion5{
+    margin-top: 100px;
+ 
+}
+.seccion5 .seccion5_imagen{
+    display: flex;
+    justify-content: center;
+
+    margin: 30px 50px;
+}
+.seccion5 .seccion5_imagen  img{
+    width: 180px;
+    height: 150px;
+    border: none;
+    box-shadow: -20px -20px rgb(56, 55, 55);
+}
+
+.seccion5 .seccion5_imagen .seccion5_enrique {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.seccion5 .seccion5_texto{
+    text-align:center ;
+    width: 50%;
+    margin-left: 30%;
+    font-size: 1.2rem;
+    font-style: italic;
+    opacity: 50%;
+    font-weight: bold;
+}
+
+.seccion5 .seccion5_imagen .seccion5_enrique i{
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+
+.clase_footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: 80px;
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.clase_footer .color_logo{
+    
+    color:white;
+    margin-top: 70px;
+}
+.clase_footer .color_logo i{
+    padding-right: 15px;
+   
+}
+
+.clase_footer .listas{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.clase_footer ul{
+    
+    color: rgb(226, 209, 209);
+    list-style: none;
+   
+}
+
+.clase_footer ul li{
+    padding-bottom: 30px;
+    color: rgb(158, 143, 143);
+    
+    font-weight: bolder;
+}
+.clase_footer ul li a{
+    text-decoration: none;
+    
+}
+
+.clase_footer .ultimo_parrafo{
+    margin-top: 70px;
+    color: rgb(158, 143, 143);
+    font-weight: bolder;
+    
+}
+
+.clase_footer .ultimo_parrafo .boton{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    
+}
+
+.clase_footer .ultimo_parrafo .boton .boton1{
+    background-color: rgb(56, 54, 54);
+    width: 180px;
+    height: 40px;
+    margin-right: 10px;
+    color: rgb(158, 143, 143);
+    padding: 10px;
+    border: none;
+    box-shadow: inset;
+}
+.clase_footer .ultimo_parrafo .boton .boton2{
+    width: 70px;
+}
+
+.clase_footer .ultimo_parrafo i{
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width: 800px){
+    nav .logo{
+        margin-left: 5px;
+       
+    } 
+    nav .logo i{
+        padding-right: 20px;
+     
+    }
+    .titulo_parso{
+        padding-left: 20px;
+        font-size: 10px;
+    }   
+    
+    nav ul{
+        margin-right: 60px;
+    }
+    
+    nav  ul li{
+        padding: 10px;
+        font-size: 10px;
+    }
+    .imagen img{
+        width: 80%;
+    }
+  
+    .contenedor1 .titulo h1{
+        
+        font-size: 30px;
+        letter-spacing: 1px;
+        
+    }
+    .primer_texto{
+        font-size: 1.5rem;
+        margin-right: 70px;
+    }
+    
+    .segundo_texto{
+       
+        line-height: 1.2;
+    }
+    .seccion3 .texto1{
+        margin-top: 100px;
+        font-size: 20px;
+    } 
+    .seccion3 .texto1 .tercer_texto{
+       
+        padding-right: 50px;
+        line-height: 1.5;
+        font-size: 1rem;
+        
+    }
+};
+    
